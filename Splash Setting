@@ -1,0 +1,9 @@
+#start splash docker
+docker run -p 8050:8050 -p 5023:5023 scrapinghub/splash
+
+#Scrapy_splash shell
+scrapy shell 'http://0.0.0.0:8050/render.html?url='URL'#&timeout=10&wait=0.5'
+
+
+
+
